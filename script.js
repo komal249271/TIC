@@ -65,7 +65,7 @@ function endGame(draw) {
   }
   message.classList.add('show');
 
-  // 🔁 Refresh after 2 seconds
+  
   setTimeout(() => {
     location.reload();
   }, 2000);
